@@ -5,15 +5,7 @@
 #include<WiFi.h>
 #include "env.h"
 
-#define WIFI_SSID "2G"
-#define WIFI_PASSWORD "257IllangIllangst."
 
-#define USER_EMAIL "dandamunmahid@gmail.com"
-#define USER_PASSWORD "Ap10022002"
-
-#define API_KEY "AIzaSyBSY5KGG1KfkYHBzNfDOvgUnUuo3ACDcGQ"
-#define DATABASE_URL "https://prams-esp32-default-rtdb.asia-southeast1.firebasedatabase.app/"
-#define FIREBASE_PROJECT_ID "prams-esp32"
 // Constants
 const int SAMPLES = 5;        // Number of samples for averaging
 const int TURB_SAMPLES = 600; // Sampling number for turbidity
